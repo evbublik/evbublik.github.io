@@ -1,0 +1,49 @@
+body {
+background-image: url("http://i.imgur.com/bBo5NV2.jpg");
+background-repeat: no-repeat;
+background-size: 25%;
+line-height: 30px;
+font-family: 'Coda', cursive;
+	}
+h4 {text-decoration:underline;
+}
+h1 {text-align: center;
+}
+p{font-style: italic;
+font-family: 'Coda', cursive;
+margin: 1.5em;
+line-height: 1.5em
+}
+ a {
+      color: white;
+    }
+#slogan {font-family: 'Coda', cursive;
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+}
+#normal {font-style: normal;
+  text-align: center;
+}
+#normal0 {font-style: normal;
+	text-align: center;
+}
+  img {
+      margin: 0px 0px 0px 0px;
+      border: 5px solid black;
+      border-radius: 50px;
+      }
+    ul {
+      padding: 20px;
+      background: rgba(0,0,0,0.5);
+      text-align: center;
+    }
+ li { padding: 76px;
+      display: inline;
+      text-align: center;
+}
+    .center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
