@@ -2,14 +2,16 @@ body {
 background-image: url("http://i.imgur.com/bBo5NV2.jpg");
 background-repeat: no-repeat;
 background-size: 25%;
+margin: 0 auto;
 	}
 h4 {text-decoration:underline;
 }
 h1 {text-align: center;
 }
-p{font-style: italic;
-font-family: 'Coda', cursive;
-margin: 1.5em;
+p{ display: block;
+font-style: italic;
+font-family: ;
+margin: 0 auto;
 line-height: 1.5em
 }
  a {
@@ -19,15 +21,18 @@ line-height: 1.5em
   font-style: italic;
   font-size: 20px;
   text-align: center;
+  margin: 0 auto;
 }
 #normal {font-style: normal;
   text-align: center;
+  margin: 0 auto;
 }
 #normal0 {font-style: normal;
 	text-align: center;
+  margin: 0 auto;
 }
   img {
-      margin: 0px 0px 0px 0px;
+      margin: 0 auto;
       border: 5px solid black;
       border-radius: 50px;
       }
