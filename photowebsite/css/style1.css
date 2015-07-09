@@ -7,37 +7,33 @@ header { text-align: center;
   background-color:#ADADAD;
   }
 
-h1 {
+h1, h5 {
   text-transform: uppercase;
   font-size: 45px;
   font-weight: 800;
   text-align: center;
   display: inline;
-  width: 300px;
+  width: 500px;
   height: 150px;
   font-family: 'Roboto Condensed', sans-serif;
 } 
 
-h5, p {
-  font-size: 20px;
-  text-align: justify;
-  display: inline-block;
-  border-bottom: 4px solid black;
-}
-
-div {
-  font-size: 1.2em;
-  display: inline-block;
-  float: right;
-  padding: 50px;
-  margin: 50px;
-  float: left;
-  width: 250px;
-
-}
-
 img {
     border-bottom: 4px solid black;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+figure {
+  font-size: 1.2em;
+  display: inline-block;
+  height: 300px;
+  float: left;
+  padding: 33.5px;
+  margin: 33.5px;
+  width: 600px;
 }
 
 ul {
@@ -53,14 +49,23 @@ nav {
   font-family: 'Roboto Condensed', sans-serif;
    border-bottom: 4px solid black;
 }
-a {
+nav a { width: 500px;
   background-color: #242424;
   color: white;
   text-decoration: none;
-  display: inline;
-  float: left;
+  display: inline-block;
   padding: 9px;
-  width: 180px;
+}
+a {
+ }
+
+a:hover
+{ background-color: #aaaaaa;
+}
+footer {
+  text-align: center;
+  padding: 1em 0;
+  clear: both;
 }
 .clearfix:after {
   visibility: hidden;
@@ -69,12 +74,4 @@ a {
   content: "";
   clear: both;
   height: 0;
-}
-a:hover
-{ background-color: #aaaaaa;
-}
-footer {
-  text-align: center;
-  padding: 1em 0;
-  clear: both;
 }
