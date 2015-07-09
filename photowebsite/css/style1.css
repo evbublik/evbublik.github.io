@@ -7,7 +7,7 @@ header { text-align: center;
   background-color:#ADADAD;
   }
 
-h1, h5 {
+h1 {
   text-transform: uppercase;
   font-size: 45px;
   font-weight: 800;
@@ -18,22 +18,22 @@ h1, h5 {
   font-family: 'Roboto Condensed', sans-serif;
 } 
 
-img {
-    border-bottom: 4px solid black;
+h3, p {
+  font-size: 22px;
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 500px;
 }
-
-h3 {
-  font-size: 15px;
-}
-
 figure {
   font-size: 1.2em;
   display: inline-block;
   height: 300px;
+  padding: 31.5px;
+  margin: 31.5px;
   float: left;
-  padding: 33.5px;
-  margin: 33.5px;
-  width: 600px;
+  width: 490px;
+}
+img {
+    border-bottom: 4px solid black;
 }
 
 ul {
@@ -43,7 +43,7 @@ ul {
 }
 
 nav {
-  font-size: 17px;
+  font-size: 18px;
   background-color: #aaaaaa;
   width: 300;
   font-family: 'Roboto Condensed', sans-serif;
@@ -63,9 +63,11 @@ a:hover
 { background-color: #aaaaaa;
 }
 footer {
-  text-align: center;
-  padding: 1em 0;
-  clear: both;
+ text-align: center;
+ padding: 1em 0;
+clear: both;
+font-family: 'Roboto Condensed', sans-serif;
+ font-size: 19px;
 }
 .clearfix:after {
   visibility: hidden;

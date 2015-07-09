@@ -21,17 +21,14 @@ h1, h5 {
 h3 {
   font-size: 15px;
 }
-
 figure {
   font-size: 1.2em;
   display: inline-block;
   height: 300px;
-  float: left;
   padding: 30.5px;
   margin: 30.5px;
   float: left;
   width: 290px;
-
 }
 img {
     border-bottom: 4px solid black;
@@ -44,7 +41,7 @@ ul {
 }
 
 nav {
-  font-size: 17px;
+  font-size: 18px;
   background-color: #aaaaaa;
   width: 300;
   font-family: 'Roboto Condensed', sans-serif;
