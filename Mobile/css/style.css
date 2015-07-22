@@ -1,0 +1,42 @@
+body {
+font-size: 20%;
+background-image: url("http://cdn2.hubspot.net/hub/65360/file-1100153001-jpg/blog_transfers/Social-media-frenzy.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+margin: 5%;
+border: solid transparent;
+font-family: 'Roboto Condensed', sans-serif;
+  }
+button {
+    padding: 2%;
+    margin: 5%;
+    background: #4479BA;
+    color: #FFF;
+    float: right;
+    display: block;
+}
+div {
+  padding: 8.2%;
+}
+
+nav {
+  font-size: 40%;
+  text-align: center; 
+  float: right;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: 10%;
+  display: inline-block;
+}
+footer {
+  display: inline-block;
+  background: gray;
+  text-align: center;
+  font-size: 12%;
+  font-family: 'Roboto Condensed', sans-serif;}
+@media only screen and (min-width: 320px) and (max-width: 768px){
+
+}
